@@ -1,11 +1,14 @@
 package com.jeremie.Miam.Miam;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Main {
 
     public static void main(String[] args) {
         Four grandFour = new Four();
-        grandFour.capacite = 55;
-        grandFour.puissance = 260;
+        //grandFour.capacite = 55;
+        //grandFour.puissance = 260;
 
         Aliment cake = new Aliment();
         cake.nom = "cake aux fruits";
